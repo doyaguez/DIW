@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+* {
+  /*CSS Reset*/
+  background: #75B9BE;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+.titulo {
+font-family: 'Open Sans', sans-serif;
+background-image: url("../img/fondo.jpg");
+height: 150px;
+
+   }
+
+.encabezado {
+  margin-top: 30px;
+  text-align: center;
+  width: 100%;
+  height: 161px; }
+
+h1 {
+  font-family: Verdana; }
+
+nav {
+  display: inline-block;
+  padding-left: 2px;
+   }
+
+
+.container_12 {
+  }
+
+ul {
+  list-style-type: none;
+  border: solid 2px;
+  height: 50px; 
+  width: 100%;
+  margin-left: px;
+  padding-right:150px;
+  background: #C7D66D;
+}
+
+ul a{
+  display: inline-block;
+  padding-left: -20px;
+  color: black;
+  font-size:20px;
+  text-decoration: none; 
+   background: #C7D66D;
+}
+
+li {
+  display: inline-block;
+  padding-left: -20px;
+  padding-top: 15px;
+  color: black;
+  font-size:20px;
+  text-decoration: none; 
+   background: #C7D66D;
+}
+li:hover {
+  height: 1px;
+  background: white;
+  border-radius: 10px;
+}
+
+li:active {
+    font-size: 150%; 
+}
+
+
+.info{
+    width: 100%;
+    height: 450px;
+    margin-top: 100px;
+}
+
+.textoInfo{
+  margin-top: 100px;
+  background-color: #C7D66D;
+  border: solid 2px;
+  margin-left: 160px;
+  width: 200px;
+
+}
+
+.textoInfo > a{
+  background: #C7D66D;
+}
+.textoInfo h1{
+  background: #C7D66D;
+}
+
+footer {
+  margin-top: 30px;
+  background-color: #C7D66D;
+  width: 100%;
+  height: 100px;
+  border: solid 2px;
+}
+footer p{
+  background-color: #C7D66D;
+  margin-top: 80px;
+}
+
+.pie{
+  color: black;
+  font-weight: bold;
+}
+
+.fotos{
+  margin-top: 100px;
+  margin-left: 25px;
+}
+
+.audio{
+  margin-top: 100px;
+}
+
+.video{
+margin-top: 50px;
+margin-left: 50px;
+}
+
+.banner{
+  margin-top: 100px;
+}
+/*# sourceMappingURL=PriebaSass.css.map */
